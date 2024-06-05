@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bize Ulaşın</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/contact-form.css">
+  <script src="/assets/js/contact-form.js" defer></script>
+</head>
+<body>
+  <form class="contactForm">
+    <h1 class="contactFormHeader">Bize Ulaşın</h1>
+    <div class="fNameAndlName">
+      <label for="fName" class="fName">
+        <p>İsim: <span>*</span></p>
+        <input type="text" id="fName" class="fNameInput" required>
+      </label>
+      <label for="lName" class="lName">
+        <p>Soyisim: <span>*</span></p>
+        <input type="text" id="lName" class="lNameInput" required>
+      </label>
+    </div>
+    <label for="emailAddress" class="emailAddress">
+      <p>E-posta Adresi: <span>*</span></p>
+      <input type="email" id="emailAddress" class="emailAddressInput" required>
+    </label>
+    <div class="queryTypes">
+      <p>Sorgu Türü: <span>*</span></p>
+      <div class="queryTypesInputs">
+        <p class="input1"><input type="radio" name="queryType" class="queryTypesInput" id="type1" value="Genel Sorgulama" required><span class="type1text">Genel Sorgulama</span></p>
+        <p class="input2"><input type="radio" name="queryType" class="queryTypesInput" id="type2" value="Destek Talebi" required><span class="type2text">Destek Talebi</span></p>
+      </div>
+    </div>
+    <label for="message" class="message">
+      <p>Mesajınız: <span>*</span></p>
+      <textarea id="message" name="message" rows="5" class="textArea"></textarea>
+    </label>
+    <div class="contact">
+      <input type="checkbox" id="contactCheckbox" class="checkbox" required>
+      <p>Ekibiniz tarafından benimle iletişime geçilmesine izin veriyorum. <span>*</span></p>
+    </div>
+    <button type="submit" class="submit">Gönder</button>
+  </form>
+  <div class="formOutput">
+    <div class="outputfName">
+      <h3>İsminiz:</h3>
+      <p class="fNameOutput"></p>
+    </div>
+    <div class="outputlName">
+      <h3>Soyisminiz:</h3>
+      <p class="lNameOutput"></p>
+    </div>
+    <div class="outputEmail">
+      <h3>E-posta Adresiniz:</h3>
+      <p class="emailOutput"></p>
+    </div>
+    <div class="outputMessage">
+      <h3>Mesajınız:</h3>
+      <p class="messageOutput"></p>
+    </div>
+    <div class="query">
+      <h3>Tercihiniz:</h3>
+      <p class="queryOutput"></p>
+    </div>
+  </div>
+</body>
+</html>

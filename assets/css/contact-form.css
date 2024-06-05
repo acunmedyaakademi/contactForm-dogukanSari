@@ -1,0 +1,204 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  width: 1440px;
+  background-color: #E0F1E8;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  font-family: 'Karla',sans-serif;
+}
+
+.contactForm {
+  width: 736px;
+  margin: 0 auto;
+  margin: 128px 352px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 40px 40px;
+}
+
+.contactFormHeader {
+  font-family: 'Karla',sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.fNameAndlName {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.fNameAndlName input {
+  width: 320px;
+  height: 51px;
+  border: 1px solid #86A2A5;
+  border-radius: 10px;
+}
+
+.emailAddressInput {
+  width: 656px;
+  height: 51px;
+  border: 1px solid #86A2A5;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.queryTypes {
+  margin-bottom: 16px;
+}
+
+.queryTypesInputs {
+  display: flex;
+  gap: 16px;
+}
+
+.input1 {
+  border: 1px solid #86A2A5;
+  border-radius: 10px;
+  padding: 16px 60px;
+}
+
+.input2 {
+  border: 1px solid #86A2A5;
+  border-radius: 10px;
+  padding: 16px 60px;
+}
+
+.message {
+  margin-bottom: 16px;
+}
+
+.textArea {
+  width: 656px;
+  margin-bottom: 40px;
+}
+
+.contact {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.submit {
+  width: 656px;
+  padding: 16px 296px;
+  background-color: #0C7D69;
+  color: #FFFFFF;
+  font-family: 'Karla',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  border: 1px solid #86A2A5;
+  border-radius: 10px;
+}
+
+.formOutput {
+  width: 736px;
+  margin: 0 auto;
+  margin: 128px 352px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 40px 40px;
+}
+
+.outputfName {
+  margin-bottom: 5px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.outputfName h3 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: lightcoral;
+  width: 200px;
+}
+
+.outputlName {
+  margin-bottom: 5px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.outputlName h3 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: lightcoral;
+  width: 200px;
+}
+
+.outputEmail {
+  margin-bottom: 5px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.outputEmail h3 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: lightcoral;
+  width: 200px;
+}
+
+.outputMessage {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.outputMessage h3 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: lightcoral;
+  width: 200px;
+}
+
+.query {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.query h3 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: lightcoral;
+  width: 200px;
+}
+
